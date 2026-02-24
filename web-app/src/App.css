@@ -1,0 +1,34 @@
+.App-header {
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.camera-box {
+  position: relative;
+  width: 90vw;
+  max-width: 400px;
+}
+
+.guide-box {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  height: 40%;
+  border: 4px dashed #00ff00;
+  pointer-events: none;
+}
+
+.btn-capture, .btn-analyze {
+  background-color: #ff9900;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-weight: bold;
+}
